@@ -58,6 +58,7 @@ sudo ln -s libcudnn.so.7.* libcudnn.so.6
 ##检查
 
 ```
-cd anaconda3/lib/python3.6/sit-packages/tensorflow/examples/tutorials/mnist/
-python mnist.py
+git clone https://github.com/tensorflow/models.git
+cd models/tutorials/image/mnist/
+python convolutional.py
 ```
